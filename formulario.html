@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="formulario.css" rel="stylesheet" type="text/css"> 
+    <title>Formulário Alucar</title>
+</head>
+<body>
+    <header class="secao-topo">
+        <a class="titulo-alucar" href="index.html">AluCar</a>
+    </header>
+    <main>
+        <section class="section-formulario">
+            <h3>Análise de Cadastro</h3>
+            <p>Preencha os campos abaixo e analisaremos seus dados.<br>
+            Se tudo estiver correto ligaremos para marcar uma visita sua à loja.</p>
+            <form method="post" action="https://www.devmedia.com.br/codigos/formularios/aula9/">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="nome">Name</label>
+                <input id="nome" placeholder="Digite seu nome" type="text" name="nome-cliente" required/>
+                <label  for="data-nascimento">Data de nascimento</label>
+                <input  id="data-nascimento" type="date" name="data_nascimento"  required/>
+                <label for="telefone" >Telefone</label>
+                <input id="telefone"  name="telefone-cliente" placeholder="(XX) XXXXX-XXXX" type="tel" maxlength="11" required/>
+            </fieldset>
+            <fieldset>
+                <legend>CNH</legend>
+                <label for="numero-registro">Numero do Registro</label>
+                <input name="registro-cliente"  id="numero-registro" placeholder="Digite o número do seu registro" type="number" minlenght="1" maxlength="12" required/>
+                <label for="validade-cnh">Validade</label>
+                <input id="validade-cnh" name="validade-cnh"  type="date" required/>
+
+            </fieldset>
+            <fieldset>
+                <legend>Carros</legend>
+                <div class="grupo-carro">
+                    <label for="modelo-carro">Modelo de carro</label>
+                    <select id="modelo-carro" name="carro" required>
+                        <option value="">Escolha um carro</option>
+                        <optgroup label="Volkswagem">
+                          <option value="gol">Gol</option>
+                          <option value="golf">Golf</option>
+                          <option value="fox">Fox</option>
+                        </optgroup>
+                        <optgroup label="Fiat">
+                          <option value="uno">Uno</option>
+                          <option value="siena">Siena</option>
+                          <option value="Palio">Palio</option>
+                        </optgroup>
+                        <optgroup label="Nissan">
+                          <option value="frontier">Frontier</option>
+                          <option value="versa">Versa</option>
+                          <option value="skyline">Skyline GT-R</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="container-button">
+            <button type="submit">Enviar dados</button>
+            </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2022 - Alucar</p>
+      </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*topo*/
+
+.secao-topo{
+    border-bottom:1px solid #d5d5d5;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    position:fixed;
+    width:100%;
+    background-color: white;
+    z-index:1;
+    
+   
+}
+
+.secao-topo p{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color:brown;
+
+}
+
+.secao-topo a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color:brown;
+}
+
+.secao-topo a:hover, .secao-topo p:hover{
+    color:black
+}
+
+.secao-largura-limitada{
+    width:100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1,h2{
+    color:#fff;
+    
+}
+
+h1,h2,h3{
+    margin:0;
+}
+
+.secao-background-capa{
+    background-image:url(img/capa.jpg);
+    height: 75vh;
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+    display:flex;
+    padding-top:50px;
+}
+
+.secao-background-conteudo{
+    display:flex;
+    justify-items: flex-end;
+    align-items: center;
+    font-size: 50px;
+    margin: 0 auto;   
+    
+}
+
+.secao-largura-limitada{
+    position:absolute;
+    background-color: rgb(41, 22, 22);
+    padding:20px;
+    border-radius: 20px;
+    opacity:90%;
+}
+
+
+.secao-largura-limitada h1, .secao-largura-limitada h2{
+    color:rgb(255, 245, 245);
+   
+}
+.secao-sobre-nos{
+    text-align: center;
+    font-size: 25px;
+}
+.secao-sobre-nos h2{
+    color:brown;
+    
+    padding:20px;
+}
+
+.container-images{
+    margin: 0 auto;
+    width:80vw;
+   
+  
+}
+.organizador-images{
+    display:flex;
+}
+
+.container-images img{
+    width:100%;
+    border-radius:10px;
+    padding:5px;
+  
+}
+.compromisso{
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    width:45%;
+    line-height: 60px;
+}
+
+span{
+    color:rgb(105, 7, 7)
+}
+
+.espaco-botao{
+    background-color: brown;
+    height:10vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    box-sizing: border-box;
+}
+
+.espaco-botao a{
+    text-decoration: none;
+    background-color: rgb(31, 10, 10);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+    color:white;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #adaaaa;
+}
+
+footer p {
+  color: #000000;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+}

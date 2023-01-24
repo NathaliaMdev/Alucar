@@ -1,0 +1,75 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+.secao-topo{
+    padding: 20px;
+}
+
+h3{
+    padding-top: 80px;
+    font-size: 60px;
+    text-align: center;
+}
+
+p{ 
+    font-size: 30px;
+    line-height: 50px;
+}
+.section-formulario{
+    box-sizing: border-box;
+    margin:0 auto;
+    width:65vw;
+   
+}
+
+fieldset{
+    font-size:25px ;
+    display:flex;
+    flex-direction: column;
+
+}
+
+input{ 
+    height:40px;
+    width:50%;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+legend{
+    padding: 10px;
+}
+
+label{
+    padding-left:10px;
+}
+
+select{
+    padding:8px;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+.container-button{
+   
+    display:flex;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    width:100%;
+    margin-bottom: 50px;
+    border-radius:10px;
+    background-color: brown ;
+    font-size: 25px;
+    color:aliceblue
+}
+
+button:hover{
+
+    color:rgb(0, 1, 1);
+}
+
