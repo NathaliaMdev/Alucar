@@ -35,6 +35,46 @@
     color:brown;
 }
 
+@media (max-width:1024px){
+    
+    .secao-topo{
+        border-bottom:1px solid #d5d5d5;
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        position:fixed;
+        max-width:100%;
+        background-color: white;
+        z-index:1;
+        padding: 0;
+        margin:0;
+        
+    }
+
+    .secao-topo a{
+        font-size:15px;
+    }
+    .secao-topo p{
+        padding: 20px;
+        font-size: 15px;
+        font-weight: bold;
+        color:brown;
+    
+    }
+    .secao-topo{
+        max-width:1024px;
+       
+        
+        align-items: center;
+        position:fixed;
+        width:100%;
+        background-color: white;
+        z-index:1;
+        
+       
+    }
+}
+
 .secao-topo a:hover, .secao-topo p:hover{
     color:black
 }
@@ -82,6 +122,8 @@ h1,h2,h3{
 }
 
 
+
+
 .secao-largura-limitada h1, .secao-largura-limitada h2{
     color:rgb(255, 245, 245);
    
@@ -90,6 +132,8 @@ h1,h2,h3{
     text-align: center;
     font-size: 25px;
 }
+
+
 .secao-sobre-nos h2{
     color:brown;
     
@@ -102,6 +146,8 @@ h1,h2,h3{
    
   
 }
+
+
 .organizador-images{
     display:flex;
 }
@@ -112,6 +158,10 @@ h1,h2,h3{
     padding:5px;
   
 }
+
+
+
+
 .compromisso{
     font-size: 40px;
     text-align: center;
@@ -161,4 +211,52 @@ footer p {
   font-family: sans-serif;
   text-align: center;
   font-size: 30px;
+}
+
+@media (max-width:700px){
+    footer p {
+        font-size: 15px;
+      }
+}
+
+@media  (max-width:1024px){
+    .secao-background-capa{
+        width:100%;
+    }
+    .secao-background-conteudo{
+        display:flex;
+        justify-items: center;
+        align-items: center;
+        font-size:18px;
+        margin: 0 auto;   
+        
+    }
+    .secao-sobre-nos{
+        font-size: 15px;
+    }
+    
+     .container-images{
+        margin: 0 auto;
+        
+}
+    .organizador-images{
+        display:flex;
+        flex-wrap: wrap;
+        width:60%;
+        justify-content: center;
+        margin: 0 auto;
+}
+    .compromisso{
+        font-size: 15px;
+        line-height: 20px;
+        text-align:justify
+        
+    }
+    .espaco-botao a{
+
+        font-size: 15px;
+
+    }
+   
+
 }
