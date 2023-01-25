@@ -233,6 +233,10 @@ footer p {
     }
     .secao-sobre-nos{
         font-size: 15px;
+        width: 80%;
+        margin: 0 auto; 
+        line-height:25px; 
+        
     }
     
      .container-images{
@@ -240,6 +244,7 @@ footer p {
         
 }
     .organizador-images{
+        margin: 0 auto;
         display:flex;
         flex-wrap: wrap;
         width:60%;
@@ -247,9 +252,10 @@ footer p {
         margin: 0 auto;
 }
     .compromisso{
+        width:75%;
         font-size: 15px;
         line-height: 20px;
-        text-align:justify
+        text-align:center;
         
     }
     .espaco-botao a{
